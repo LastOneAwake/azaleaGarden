@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+.row {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+h2 {
+  font-family: 'Lobster', cursive;
+  display: inline;
+  color: #5c5c5c;
+}
+.sides {
+  height: 100vh;
+  max-width: 100%;
+}
+#firstLeftSide {
+  position: fixed;
+  padding: 5vh 0px 0px 0px;
+  margin: 0px;
+  background-color: #ff9183;
+  text-align: center;
+  height: 100vh;
+  max-width: 100%;
+}
+#firstLeftSide #logoPlaceHolder {
+  text-align: center;
+  padding-top: 15%;
+  font-size: 4em;
+  font-family: 'Lobster', cursive;
+  color: #5c5c5c;
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  background-color: floralwhite;
+  margin-left: auto;
+  margin-right: auto;
+}
+#firstLeftSide #contactButton {
+  display: inline;
+  font-size: 4em;
+  color: floralwhite;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 3px 3px #757575;
+}
+#firstLeftSide #leftTop {
+  height: 90%;
+  width: 100%;
+}
+#firstLeftSide #leftBot {
+  text-align: center;
+  height: 10%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+#firstLeftSide #leftBot a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+}
+#firstLeftSide #leftBot .space {
+  color: white;
+  font-size: 3em;
+  margin: 0 .5vw 0 .5vw;
+}
+.scroller {
+  height: 100vh;
+}
+#firstRightSide {
+  background-color: white;
+  padding-top: 5vh;
+  height: 100vh;
+  max-width: 100%;
+}
+#firstRightSide .topHead {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+#firstRightSide .rightText {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#firstRightSide .rightText p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+  color: #5c5c5c;
+}
