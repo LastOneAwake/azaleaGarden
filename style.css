@@ -95,14 +95,13 @@ ul li {
 }
 #firstRightSide {
   background-color: white;
-  padding-top: 5vh;
   height: 100vh;
   max-width: 100%;
   padding-top: 3vh;
 }
 #firstRightSide .topHead {
   text-align: center;
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 #firstRightSide .rightText {
   width: 90%;
@@ -118,4 +117,18 @@ ul li {
   height: 35vh;
   border: solid 2px #5c5c5c;
   border-radius: 10px;
+}
+#floorText {
+  height: 15vh;
+}
+.floorPlanPlaceHolder {
+  height: auto;
+  min-height: 45vh;
+}
+.floorImageHolder {
+  height: 40vh;
+  width: 100%;
+  border: solid 2px #5c5c5c;
+  border-radius: 15px;
+  text-align: center;
 }

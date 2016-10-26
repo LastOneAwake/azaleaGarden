@@ -15,26 +15,29 @@
 @mainRed: #ff9183;
 @mainGreen: #59c172;
 @textGrey: #5c5c5c;
-h2{
+h2 {
   font-family: 'Lobster', cursive;
   font-size: 4em;
-  display:inline;
+  display: inline;
   color: @textGrey;
 }
-h3{
+
+h3 {
   font-family: 'Lobster', cursive;
   font-size: 2.5em;
   color: @textGrey;
 }
 
-.sides{
-  height:100vh;
-  max-width:100%;
+.sides {
+  height: 100vh;
+  max-width: 100%;
   padding-top: 3vh;
 }
+
 p {
   font-size: 1.5em;
 }
+
 ul li {
   font-size: 1.5em;
   color: @textGrey;
@@ -42,27 +45,27 @@ ul li {
 
 #firstLeftSide {
   position: fixed;
-  padding:5vh 0px 0px 0px;
-  margin:0px;
+  padding: 5vh 0px 0px 0px;
+  margin: 0px;
   background-color: @mainRed;
   text-align: center;
   .sides;
 
-  #logoPlaceHolder{
+  #logoPlaceHolder {
     text-align: center;
-    padding-top:15%;
+    padding-top: 15%;
     font-size: 4em;
     font-family: 'Lobster', cursive;
-    color:@textGrey;
-    width:50vh;
-    height:50vh;
+    color: @textGrey;
+    width: 50vh;
+    height: 50vh;
     border-radius: 50%;
     background-color: floralwhite;
     margin-left: auto;
     margin-right: auto;
 
   }
-  #contactButton{
+  #contactButton {
     display: inline;
     font-size: 4em;
     color: floralwhite;
@@ -78,16 +81,16 @@ ul li {
     color: #e8c098;
     text-decoration: none;
   }
-  #leftTop{
-    height:90%;
-    width:100%;
+  #leftTop {
+    height: 90%;
+    width: 100%;
   }
-  #leftBot{
+  #leftBot {
     text-align: center;
-    height:10%;
+    height: 10%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    a{
+    a {
       font-family: 'Raleway', sans-serif;
       font-size: 2em;
       text-decoration: none;
@@ -101,23 +104,24 @@ ul li {
 
   }
 }
+
 .scroller {
-  height:100vh;
+  height: 100vh;
 }
-#firstRightSide{
+
+#firstRightSide {
   background-color: white;
-  padding-top: 5vh;
   .sides;
 
-  .topHead{
+  .topHead {
     text-align: center;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
   }
   .rightText {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    p{
+    p {
       font-family: 'Raleway', sans-serif;
       font-size: 1.5em;
       color: @textGrey;
@@ -125,8 +129,27 @@ ul li {
 
   }
 }
-#amenitiesPicHolder{
+
+#amenitiesPicHolder {
   height: 35vh;
-  border:solid 2px @textGrey;
+  border: solid 2px @textGrey;
   border-radius: 10px;
+}
+
+#floorText {
+  height: 15vh;
+}
+
+.floorPlanPlaceHolder {
+  height: auto;
+  min-height: 45vh;
+
+}
+
+.floorImageHolder {
+  height: 40vh;
+  width: 100%;
+  border: solid 2px @textGrey;
+  border-radius: 15px;
+  text-align: center;
 }
