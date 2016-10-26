@@ -23,7 +23,7 @@ h3 {
 .sides {
   height: 100vh;
   max-width: 100%;
-  padding-top: 5vh;
+  padding-top: 3vh;
 }
 p {
   font-size: 1.5em;
@@ -40,7 +40,7 @@ ul li {
   text-align: center;
   height: 100vh;
   max-width: 100%;
-  padding-top: 5vh;
+  padding-top: 3vh;
 }
 #firstLeftSide #logoPlaceHolder {
   text-align: center;
@@ -61,6 +61,13 @@ ul li {
   color: floralwhite;
   font-family: 'Lobster', cursive;
   text-shadow: 2px 3px 3px #757575;
+  transition: all .75s;
+  outline: none;
+  cursor: pointer;
+}
+#firstLeftSide #contactButton:hover {
+  color: #e8c098;
+  text-decoration: none;
 }
 #firstLeftSide #leftTop {
   height: 90%;
@@ -88,9 +95,10 @@ ul li {
 }
 #firstRightSide {
   background-color: white;
+  padding-top: 5vh;
   height: 100vh;
   max-width: 100%;
-  padding-top: 5vh;
+  padding-top: 3vh;
 }
 #firstRightSide .topHead {
   text-align: center;
