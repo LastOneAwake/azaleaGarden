@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   max-width: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 .row {
   margin: 0px;
@@ -10,12 +11,26 @@
 }
 h2 {
   font-family: 'Lobster', cursive;
+  font-size: 4em;
   display: inline;
+  color: #5c5c5c;
+}
+h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5em;
   color: #5c5c5c;
 }
 .sides {
   height: 100vh;
   max-width: 100%;
+  padding-top: 5vh;
+}
+p {
+  font-size: 1.5em;
+}
+ul li {
+  font-size: 1.5em;
+  color: #5c5c5c;
 }
 #firstLeftSide {
   position: fixed;
@@ -25,6 +40,7 @@ h2 {
   text-align: center;
   height: 100vh;
   max-width: 100%;
+  padding-top: 5vh;
 }
 #firstLeftSide #logoPlaceHolder {
   text-align: center;
@@ -72,9 +88,9 @@ h2 {
 }
 #firstRightSide {
   background-color: white;
-  padding-top: 5vh;
   height: 100vh;
   max-width: 100%;
+  padding-top: 5vh;
 }
 #firstRightSide .topHead {
   text-align: center;
@@ -87,6 +103,11 @@ h2 {
 }
 #firstRightSide .rightText p {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.5em;
   color: #5c5c5c;
+}
+#amenitiesPicHolder {
+  height: 35vh;
+  border: solid 2px #5c5c5c;
+  border-radius: 10px;
 }
