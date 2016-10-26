@@ -21,7 +21,8 @@ h3 {
   color: #5c5c5c;
 }
 .sides {
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   max-width: 100%;
   padding-top: 3vh;
 }
@@ -38,9 +39,15 @@ ul li {
   margin: 0px;
   background-color: #ff9183;
   text-align: center;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   max-width: 100%;
   padding-top: 3vh;
+}
+@media screen and (max-width: 901px) {
+  #firstLeftSide {
+    position: relative;
+  }
 }
 #firstLeftSide #logoPlaceHolder {
   text-align: center;
@@ -95,7 +102,8 @@ ul li {
 }
 #firstRightSide {
   background-color: white;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   max-width: 100%;
   padding-top: 3vh;
 }
@@ -119,16 +127,21 @@ ul li {
   border-radius: 10px;
 }
 #floorText {
-  height: 15vh;
+  height: auto;
+  min-height: 15vh;
 }
 .floorPlanPlaceHolder {
   height: auto;
   min-height: 45vh;
 }
 .floorImageHolder {
-  height: 40vh;
+  height: a;
+  min-height: 40vh;
   width: 100%;
   border: solid 2px #5c5c5c;
   border-radius: 15px;
   text-align: center;
+}
+.fpDetails {
+  height: auto;
 }

@@ -29,7 +29,8 @@ h3 {
 }
 
 .sides {
-  height: 100vh;
+  height: auto;
+  min-height:100vh;
   max-width: 100%;
   padding-top: 3vh;
 }
@@ -50,6 +51,10 @@ ul li {
   background-color: @mainRed;
   text-align: center;
   .sides;
+
+  @media screen and (max-width: 901px){
+    position: relative;
+  }
 
   #logoPlaceHolder {
     text-align: center;
@@ -137,7 +142,8 @@ ul li {
 }
 
 #floorText {
-  height: 15vh;
+  height: auto;
+  min-height:15vh;
 }
 
 .floorPlanPlaceHolder {
@@ -147,9 +153,13 @@ ul li {
 }
 
 .floorImageHolder {
-  height: 40vh;
+  height: a;
+  min-height:40vh;
   width: 100%;
   border: solid 2px @textGrey;
   border-radius: 15px;
   text-align: center;
+}
+.fpDetails {
+  height:auto;
 }
