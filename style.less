@@ -1,14 +1,14 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   max-width: 100%;
 
   font-family: 'Raleway', sans-serif;
 }
 
 .row {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   max-width: 100%;
 }
 
@@ -30,38 +30,47 @@ h3 {
 
 .sides {
   height: auto;
-  min-height:100vh;
+  min-height: 100vh;
   max-width: 100%;
   padding-top: 3vh;
 }
 
 p {
   font-size: 1.5em;
+  @media screen and (max-width: 1300px) {
+    font-size: 1em;
+  }
 }
 
 ul li {
   font-size: 1.5em;
   color: @textGrey;
-}
-
-#logoHolder{
-  height:65vh;
-  display: block;
-  img{
-    max-height:60vh;
-    display: block;
+  @media screen and (max-width:1300px){
+    font-size: 1.3em;
   }
 }
+
+#logoHolder {
+  height: 80vh;
+  display: block;
+  text-align: center;
+  img {
+    height:80vh;
+    width:auto;
+    display: inline;
+  }
+}
+
 #firstLeftSide {
   position: fixed;
-  padding: 5vh 0px 0px 0px;
   margin: 0px;
   background-color: @mainGreen;
   text-align: center;
   .sides;
+  padding-top: 0vh;
 
-  @media screen and (max-width: 901px){
-    position: relative;
+  @media screen and (max-width: 1001px) {
+    position: static;
   }
 
   #logoPlaceHolder {
@@ -99,10 +108,8 @@ ul li {
     width: 100%;
   }
   #leftBot {
+    bottom: 0;
     text-align: center;
-    height: 10%;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
     a {
       font-family: 'Raleway', sans-serif;
       font-size: 2em;
@@ -137,7 +144,10 @@ ul li {
     p {
       font-family: 'Raleway', sans-serif;
       font-size: 1.5em;
-      color: @textGrey
+      color: @textGrey;
+      @media screen and (max-width:1300px){
+        font-size: 1.3em;
+      }
     }
 
   }
@@ -151,7 +161,7 @@ ul li {
 
 #floorText {
   height: auto;
-  min-height:15vh;
+  min-height: 15vh;
 }
 
 .floorPlanPlaceHolder {
@@ -161,13 +171,25 @@ ul li {
 }
 
 .floorImageHolder {
-  height: a;
-  min-height:40vh;
+  height: auto;
+  min-height: 40vh;
   width: 100%;
   border: solid 2px @textGrey;
   border-radius: 15px;
   text-align: center;
 }
+
 .fpDetails {
-  height:auto;
+  height: auto;
+}
+
+@media screen and (max-width: 1300px) {
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2.2em;
+  }
+
 }
