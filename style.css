@@ -33,11 +33,19 @@ ul li {
   font-size: 1.5em;
   color: #5c5c5c;
 }
+#logoHolder {
+  height: 65vh;
+  display: block;
+}
+#logoHolder img {
+  max-height: 60vh;
+  display: block;
+}
 #firstLeftSide {
   position: fixed;
   padding: 5vh 0px 0px 0px;
   margin: 0px;
-  background-color: #ff9183;
+  background-color: #8dc18c;
   text-align: center;
   height: auto;
   min-height: 100vh;
@@ -63,7 +71,7 @@ ul li {
   margin-right: auto;
 }
 #firstLeftSide #contactButton {
-  display: inline;
+  display: block;
   font-size: 4em;
   color: floralwhite;
   font-family: 'Lobster', cursive;

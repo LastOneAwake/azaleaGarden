@@ -13,7 +13,7 @@
 }
 
 @mainRed: #ff9183;
-@mainGreen: #59c172;
+@mainGreen: #8dc18c;
 @textGrey: #5c5c5c;
 h2 {
   font-family: 'Lobster', cursive;
@@ -44,11 +44,19 @@ ul li {
   color: @textGrey;
 }
 
+#logoHolder{
+  height:65vh;
+  display: block;
+  img{
+    max-height:60vh;
+    display: block;
+  }
+}
 #firstLeftSide {
   position: fixed;
   padding: 5vh 0px 0px 0px;
   margin: 0px;
-  background-color: @mainRed;
+  background-color: @mainGreen;
   text-align: center;
   .sides;
 
@@ -71,7 +79,7 @@ ul li {
 
   }
   #contactButton {
-    display: inline;
+    display: block;
     font-size: 4em;
     color: floralwhite;
     font-family: 'Lobster', cursive;
@@ -129,7 +137,7 @@ ul li {
     p {
       font-family: 'Raleway', sans-serif;
       font-size: 1.5em;
-      color: @textGrey;
+      color: @textGrey
     }
 
   }
